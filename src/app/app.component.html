@@ -1,0 +1,7 @@
+<div class="form-text">
+   <form [formGroup]="form">
+      <mat-form-field>
+         <input matInput [textMask]="config" [(ngModel)]="myModel" type="text" formControlName="dateFormControl" #dateControl>
+      </mat-form-field>
+   </form>
+</div>
